@@ -32,16 +32,78 @@ li {
     padding: 0px 7.5px;
 }
 
-li a {
+a {
     color: white;
     text-decoration: none;
 }
 
-li a:hover {
+a:hover {
     color: blue;
     text-decoration: underline;
 }
 
+a:active {
+    color: darkcyan;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.col_2 a {
+    color: black;
+}
+
 main {
     background-color: white;
+    padding-top: 75px;
+    z-index: -1;
+}
+
+.container {
+    margin: 10px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    .col_1 {
+        box-shadow: 5px 5px #777777;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .col_2 {
+        margin-left: 10px;
+    }
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    main {
+        background-color: black;
+        color: white;
+        padding-top: 100px;
+    }
+    header, h1, li a {
+        background-color: white;
+        color: black;
+        height: 100px;
+        text-align: justify;
+    }
+    header ul {
+        margin-top: -70px;
+        font-size: 15px;
+    }
+    .col_1 {
+        width: 30%;
+    }
+    .col_2 {
+        width: 70%;
+    }
 }
