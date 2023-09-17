@@ -106,4 +106,7 @@ footer {
     .col_2 {
         width: 70vw;
     }
+    .col_2 a {
+        color: white;
+    }
 }
