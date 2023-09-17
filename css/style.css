@@ -102,6 +102,7 @@ footer {
     }
     .col_1 {
         width: 30vw;
+        box-shadow: 5px 5px #777777;
     }
     .col_2 {
         width: 70vw;
