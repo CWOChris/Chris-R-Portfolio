@@ -14,7 +14,7 @@ header {
     height: 75px;
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: 100vw;
     z-index: 25;
     display: inline-block;
 }
@@ -62,7 +62,7 @@ main {
     margin: 10px;
     width: 900px;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30vw 65vw;
 
     .col_1 {
         box-shadow: 5px 5px #777777;
@@ -101,9 +101,9 @@ footer {
         font-size: 15px;
     }
     .col_1 {
-        width: 30%;
+        width: 30vw;
     }
     .col_2 {
-        width: 70%;
+        width: 70vw;
     }
 }
