@@ -1,0 +1,47 @@
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-indent: 50px;
+}
+
+header {
+    background-color: black;
+    padding: 0px 0px 0px 0px;
+    height: 75px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 25;
+    display: inline-block;
+}
+
+header ul {
+    margin-right: 40px;
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: -45px;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 7.5px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+}
