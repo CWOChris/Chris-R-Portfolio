@@ -136,11 +136,11 @@ footer {
         font-size: 15px;
     }
     .col_1 {
-        width: 30vw;
+        width: 30%;
         box-shadow: 5px 5px #777777;
     }
     .col_2 {
-        width: 70vw;
+        width: 70%;
     }
     .col_2 a {
         color: white;
