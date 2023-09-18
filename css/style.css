@@ -52,14 +52,42 @@ a:active {
     font-weight: bold;
 }
 
-.col_2 a {
-    color: black;
+.col_2 {
+    padding-left: 5px;
 }
+
+
 
 main {
     background-color: white;
     padding-top: 75px;
     z-index: -1;
+    box-shadow: 5px 5px #777777;
+}
+
+main a {
+    color: rgb(56, 56, 56);
+    font-weight: bolder;
+}
+
+#about_me:hover {
+    background-color: darkcyan;
+    box-shadow: 5px 5px #777777;
+}
+
+#apps:hover {
+    background-color: darkcyan;
+    box-shadow: 5px 5px #777777;
+}
+
+#github:hover {
+    background-color: darkcyan;
+    box-shadow: 5px 5px #777777;
+}
+
+#contact:hover {
+    background-color: darkcyan;
+    box-shadow: 5px 5px #777777;
 }
 
 .container {
