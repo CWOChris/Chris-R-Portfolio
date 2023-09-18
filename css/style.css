@@ -50,6 +50,7 @@ a:active {
 
 .col_1 {
     font-weight: bold;
+    font-size: 130%;
 }
 
 .col_2 {
@@ -75,7 +76,7 @@ main a {
     box-shadow: 5px 5px #777777;
 }
 
-#apps:hover {
+#work:hover {
     background-color: darkcyan;
     box-shadow: 5px 5px #777777;
 }
