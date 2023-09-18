@@ -84,6 +84,7 @@ footer {
     body {
         background-color: black;
         color: white;
+        padding-left: 8px;
     }
     main {
         background-color: black;
