@@ -118,7 +118,7 @@ footer {
         background-color: black;
         color: white;
         padding-left: 8px;
-        touch-action: auto;
+        touch-action: pan-y;
     }
     main {
         background-color: black;
@@ -140,7 +140,7 @@ footer {
         box-shadow: 5px 5px #777777;
     }
     .col_2 {
-        width: 90%;
+        width: 85%;
     }
     .col_2 a {
         color: white;
