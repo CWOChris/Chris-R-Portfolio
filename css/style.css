@@ -64,6 +64,7 @@ main {
     padding-top: 75px;
     z-index: -1;
     box-shadow: 5px 5px #777777;
+    touch-action: pan-y;
 }
 
 main a {
