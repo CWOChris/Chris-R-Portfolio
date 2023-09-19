@@ -1,5 +1,5 @@
 # Chris-R-Portfolio
-Welcome to my portfolio of work in full stack web development.  You will find it deployed live at <url(https://cwochris.github.io/Chris-R-Portfolio/)>
+Welcome to my portfolio of work in full stack web development.  You will find it deployed live at url: https://cwochris.github.io/Chris-R-Portfolio/
 
 Here you will find information about who I am and why I am pusruing Web Development as a career.
 
