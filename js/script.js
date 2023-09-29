@@ -1,0 +1,1 @@
+$('#CWO-fade-in').hide().fadeIn('6000');
