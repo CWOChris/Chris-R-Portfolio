@@ -1,5 +1,6 @@
 #myPortfolio {
     font-weight: bolder;
+    color: white;
 }
 
 #aboutMeText {
@@ -11,3 +12,6 @@
     position: relative;
 }
 
+#dDpW {
+    width: 20px;
+}
